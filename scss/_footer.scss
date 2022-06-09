@@ -117,5 +117,39 @@ label {
     height: 95px;
     display: flex;
     align-items: center;
+    span {
+      font-size: 14px;
+      color: #fff;
+      @media (max-width: 767.98px) {
+        font-size: 12px;
+      }
+    }
+    .ft-social {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+      padding-left: 0;
+      a {
+        color: #fff;
+        font-size: 18px;
+        &:hover {
+          &.icon-twitter {
+            color: #00acee;
+          }
+          &.icon-facebook {
+            color: #4267b2;
+          }
+          &.icon-skype {
+            color: #00aff0;
+          }
+          &.icon-behance {
+            color: #053eff;
+          }
+          &.icon-linkedin2 {
+            color: #0072b1;
+          }
+        }
+      }
+    }
   }
 }
