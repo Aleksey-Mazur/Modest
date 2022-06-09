@@ -1,1 +1,24 @@
-
+$body-color: #8d8f92;
+$font-family-base: "Open Sans", sans-serif;
+$line-height-base: 1.625;
+$paragraph-margin-bottom: 30px;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px,
+  xxl: 1320px,
+) !default;
+$btn-padding-x: 28px;
+$btn-padding-y: 10px;
+$btn-border-width: 2px;
+$btn-border-radius: 6px;
+$btn-font-family: "Quattrocento Sans", sans-serif;
+$btn-font-size: 14px;
+$btn-font-weight: 700;
+$gray: #e1e6ea;
+$gray-dark: #3a454d;
+$link-color: #8d8f92;
+$link-decoration: none;
+$link-hover-color: #8d8f92;
+$link-hover-decoration: none;

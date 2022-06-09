@@ -1,0 +1,32 @@
+@mixin headings {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: bold;
+  color: #292f36;
+  text-transform: uppercase;
+}
+
+@mixin icons {
+  font-family: "icomoon" !important;
+  color: $jungle;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+@mixin icons-list {
+  .icon-cogs {
+    display: block;
+    @include icons;
+  }
+  .icon-pencil2 {
+    display: block;
+    @include icons;
+  }
+  .icon-mobile {
+    display: block;
+    @include icons;
+  }
+  .icon-clock {
+    display: block;
+    @include icons;
+  }
+}

@@ -1,4 +1,5 @@
-$('.carousel').carousel({
-    interval: 3000,
-    touch: true
-  })
+const myCarouselElement = document.querySelector("#carouselExampleCaptions");
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 100000,
+  touch: true,
+});

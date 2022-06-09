@@ -6,11 +6,511 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modest</title>
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/min/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style1.css" />
     <link rel="stylesheet" href="css/min/bootstrap.min.css" />
     <link rel="stylesheet" href="css/min/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Quattrocento+Sans:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <header class="header-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg col-12">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="#"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="burger"
+                ><svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="40px"
+                  height="40px"
+                >
+                  <path
+                    d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"
+                  /></svg
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/gallery-pic-01.jpg"
+            class="d-block w-100"
+            alt="1st slide"
+          />
+          <div class="carousel-caption">
+            <h1>Welcome to our marketplace</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+              metus, tristique ndolor non, ornare sagittis dolor. Nulla
+              vestibulu lacus...
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              view more
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              video tour
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/gallery-pic-02.jpg"
+            class="d-block w-100"
+            alt="2nd slide"
+          />
+          <div class="carousel-caption">
+            <h1>Welcome to our marketplace</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+              metus, tristique ndolor non, ornare sagittis dolor. Nulla
+              vestibulu lacus...
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              view more
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              video tour
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/gallery-pic-03.jpg"
+            class="d-block w-100"
+            alt="3rd slide"
+          />
+          <div class="carousel-caption">
+            <h1>Welcome to our marketplace</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+              metus, tristique ndolor non, ornare sagittis dolor. Nulla
+              vestibulu lacus...
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+              view more
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              video tour
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="about-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-7 about-modest">
+            <h2>we are modest.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+              metus, tristique ndolor non, ornare sagittis dolor. Nulla
+              vestibulu lacus sed molestie gravida. Crferm entum quismagna
+              congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis
+              lacusullamcorper at. Lorem ipsum dolor sit amet. Lorem, ipsum
+              dolor.
+            </p>
+            <p>
+              Phasellus sollicitudin ante eros ornare,
+              <a href="#">sit amet luctus lorem semper.</a> Suspendisse posuere,
+              quamdictum consectetur, augue metus pharetra tellus, eu
+              feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio
+              convallis eget. vel sodales arcu vestibulum. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit.
+            </p>
+            <ul class="social-links">
+              <li><a href="#" class="icon-facebook" title="Facebook"></a></li>
+              <li><a href="#" class="icon-twitter" title="Twitter"></a></li>
+              <li><a href="#" class="icon-google" title="Google"></a></li>
+              <li><a href="#" class="icon-dribbble" title="Dribbble"></a></li>
+              <li><a href="#" class="icon-behance" title="Behance"></a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-5 advantages">
+            <div>
+              <h3><span>01</span>Dedication to the customers</h3>
+              <p>
+                Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae
+                tristique nisi, vitae ullamcorper risus.
+              </p>
+            </div>
+            <div>
+              <h3><span>02</span>working closely with our clients</h3>
+              <p>
+                Sed blandit nisi urna, sed pellentesque enim consectetur vitae.
+                Suspendisse ut vehicula nibh.
+              </p>
+            </div>
+            <div>
+              <h3><span>03</span>increase happiness</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eleifend laoreet euismod.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container team-wrapper">
+      <h2>Meet the team.</h2>
+      <div class="row justify-content-around">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="staff">
+            <img src="images/bromley.jpg" alt="Gloria Bromley" />
+            <span class="staff-name">
+              <strong>Gloria Bromley<span>CEO and Founder</span> </strong>
+            </span>
+            <ul class="staff-social">
+              <li><a href="#" class="icon-twitter"></a></li>
+              <li><a href="#" class="icon-facebook"></a></li>
+              <li><a href="#" class="icon-linkedin2"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="staff">
+            <img src="images/torres.jpg" alt="Paul Torres" />
+            <span class="staff-name"
+              ><strong
+                >Paul Torres<span>Head of Development</span></strong
+              ></span
+            >
+            <ul class="staff-social">
+              <li><a href="#" class="icon-twitter"></a></li>
+              <li><a href="#" class="icon-facebook"></a></li>
+              <li><a href="#" class="icon-linkedin2"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="staff">
+            <img src="images/gillette.jpg" alt="Judith Gillette" />
+            <span class="staff-name"
+              ><strong
+                >Judith Gillette<span>Graphic Desinger</span></strong
+              ></span
+            >
+            <ul class="staff-social">
+              <li><a href="#" class="icon-twitter"></a></li>
+              <li><a href="#" class="icon-facebook"></a></li>
+              <li><a href="#" class="icon-linkedin2"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="staff">
+            <img src="images/reed.jpg" alt="Delores Reed" />
+            <span class="staff-name"
+              ><strong
+                >Delores Reed<span>Client Service Director</span></strong
+              ></span
+            >
+            <ul class="staff-social">
+              <li><a href="#" class="icon-twitter"></a></li>
+              <li><a href="#" class="icon-facebook"></a></li>
+              <li><a href="#" class="icon-linkedin2"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-wrapper">
+      <div class="container">
+        <h2>Lovely work.</h2>
+        <div class="row justify-content-around">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <a href="#" class="portfolio"
+              ><img src="images/portfolio-item-01.jpg" alt="01" /><span
+                >partnership guidlines</span
+              ><svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 16 16"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+              >
+                <rect width="16" height="16" id="icon-bound" fill="none" />
+                <polygon
+                  points="15,7 9,7 9,1 7,1 7,7 1,7 1,9 7,9 7,15 9,15 9,9 15,9"
+                /></svg
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <a href="#" class="portfolio"
+              ><img src="images/portfolio-item-02.jpg" alt="02" /><span
+                >partnership guidlines</span
+              ><svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 16 16"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+              >
+                <rect width="16" height="16" id="icon-bound" fill="none" />
+                <polygon
+                  points="15,7 9,7 9,1 7,1 7,7 1,7 1,9 7,9 7,15 9,15 9,9 15,9"
+                /></svg
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <a href="#" class="portfolio"
+              ><img src="images/portfolio-item-03.jpg" alt="03" /><span
+                >partnership guidlines</span
+              ><svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 16 16"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+              >
+                <rect width="16" height="16" id="icon-bound" fill="none" />
+                <polygon
+                  points="15,7 9,7 9,1 7,1 7,7 1,7 1,9 7,9 7,15 9,15 9,9 15,9"
+                /></svg
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <a href="#" class="portfolio"
+              ><img src="images/portfolio-item-04.jpg" alt="04" /><span
+                >partnership guidlines</span
+              ><svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 16 16"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+              >
+                <rect width="16" height="16" id="icon-bound" fill="none" />
+                <polygon
+                  points="15,7 9,7 9,1 7,1 7,7 1,7 1,9 7,9 7,15 9,15 9,9 15,9"
+                /></svg
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <a href="#" class="portfolio"
+              ><img src="images/portfolio-item-05.jpg" alt="05" /><span
+                >partnership guidlines</span
+              ><svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 16 16"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+              >
+                <rect width="16" height="16" id="icon-bound" fill="none" />
+                <polygon
+                  points="15,7 9,7 9,1 7,1 7,7 1,7 1,9 7,9 7,15 9,15 9,9 15,9"
+                /></svg
+            ></a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <a href="#" class="portfolio"
+              ><img src="images/portfolio-item-06.jpg" alt="06" /><span
+                >partnership guidlines</span
+              ><svg
+                width="16px"
+                height="16px"
+                viewBox="0 0 16 16"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="currentColor"
+              >
+                <rect width="16" height="16" id="icon-bound" fill="none" />
+                <polygon
+                  points="15,7 9,7 9,1 7,1 7,7 1,7 1,9 7,9 7,15 9,15 9,9 15,9"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <button
+            type="button"
+            class="btn btn-outline-primary col-5 col-sm-4 col-md-3 col-lg-3 col-xl-2"
+          >
+            show me more
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container work-list-wrapper">
+      <h2 class="work-list-heading">What we do.</h2>
+      <div class="row justify-content-around">
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-cogs"></div>
+          <h3>easy theme setup</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-pencil2"></div>
+          <h3>pixel perfect design</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-mobile"></div>
+          <h3>responsive display</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-clock"></div>
+          <h3>24/7 support</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-cogs"></div>
+          <h3>easy theme setup</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-pencil2"></div>
+          <h3>pixel perfect design</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-mobile"></div>
+          <h3>responsive display</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-6 col-lg-3 work-list">
+          <div class="icon-clock"></div>
+          <h3>24/7 support</h3>
+          <p>
+            Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+            Maecenas a justo nec velit egestas fermentum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="features-wrapper">
+      <div class="container">
+        <h2>Features.</h2>
+        <div class="row justify-content-around">
+          <div class="col-sm-12 col-md-6 col-lg-4"></div>
+          <div class="col-sm-12 col-md-6 col-lg-4"></div>
+          <div class="col-sm-12 col-md-6 col-lg-4"></div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
