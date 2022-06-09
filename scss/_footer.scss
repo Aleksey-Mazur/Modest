@@ -1,0 +1,121 @@
+.footer-heading {
+  padding: 65px 0 0 12px;
+}
+
+.map {
+  display: block;
+  margin-bottom: 56px;
+  img {
+    width: 100%;
+    &.map-min-01,
+    &.map-min-02 {
+      display: none;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .main-map {
+      display: none;
+    }
+    .map-min-01 {
+      display: block !important;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .map-min-01 {
+      display: none !important;
+    }
+    .map-min-02 {
+      display: block !important;
+    }
+  }
+}
+
+.contacts-info {
+  margin-bottom: 80px;
+  .contacts {
+    h3 {
+      @include headings;
+      font-size: 20px;
+      margin-bottom: 26px;
+    }
+    p > a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.feedback-form {
+  margin-top: -190px;
+  background: #fff;
+  border: 1px solid #eaeef1;
+  @media (max-width: 1199.98px) {
+    margin-top: -90px;
+  }
+  @media (max-width: 991.98px) {
+    margin: 0;
+  }
+  form {
+    padding: 30px;
+    .input-group {
+      justify-content: space-between;
+      margin-bottom: 20px;
+      > div {
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+      }
+      @media (max-width: 991.98px) {
+        display: block;
+        > div {
+          width: 100%;
+        }
+      }
+    }
+    .text-group {
+      margin-bottom: 20px;
+      textarea {
+        width: 100%;
+        height: 160px;
+        resize: none;
+      }
+    }
+    button {
+      border-color: $jungle;
+      color: $jungle;
+      text-transform: uppercase;
+      &:hover {
+        background: $jungle;
+        border-color: $jungle;
+        color: #fff;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: none !important;
+      }
+    }
+  }
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  outline: none;
+  border: none;
+  background: #eaeef1;
+  border-radius: 4px;
+  height: 44px;
+  color: $body-color;
+}
+
+label {
+  font: 700 14px/26px "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.ft-wrapper {
+  background: $gray-dark;
+  .ft-info {
+    height: 95px;
+    display: flex;
+    align-items: center;
+  }
+}

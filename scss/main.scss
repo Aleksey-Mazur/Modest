@@ -2,6 +2,7 @@
 @import "_mixins";
 @import "_header";
 @import "_gallery";
+@import "_footer";
 
 a {
   font-weight: bold;
@@ -267,10 +268,34 @@ ul {
 
 .features-wrapper {
   background: $gray-dark;
-  padding: 80px 0 30px;
+  padding: 80px 0 50px;
   h2 {
     color: #fff;
     margin-top: 0;
     border-color: #4e5a62;
+  }
+  .features {
+    img {
+      width: 100%;
+      margin-bottom: 50px;
+      @media (max-width: 991.98px) {
+        margin-bottom: 30px;
+      }
+      @media (max-width: 767.98px) {
+        margin-bottom: 12px;
+      }
+    }
+    h3 {
+      @include headings;
+      color: #fff;
+      font-size: 18px;
+      margin-bottom: 18px;
+      @media (max-width: 991.98px) {
+        margin-bottom: 12px;
+      }
+    }
+    p {
+      color: #dcdfe1;
+    }
   }
 }
