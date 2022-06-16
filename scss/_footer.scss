@@ -43,6 +43,7 @@
     }
   }
 }
+
 .feedback-form {
   margin-top: -190px;
   background: #fff;
@@ -124,31 +125,32 @@ label {
         font-size: 12px;
       }
     }
-    .ft-social {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 0;
-      padding-left: 0;
-      a {
-        color: #fff;
-        font-size: 18px;
-        &:hover {
-          &.icon-twitter {
-            color: #00acee;
-          }
-          &.icon-facebook {
-            color: #4267b2;
-          }
-          &.icon-skype {
-            color: #00aff0;
-          }
-          &.icon-behance {
-            color: #053eff;
-          }
-          &.icon-linkedin2 {
-            color: #0072b1;
-          }
-        }
+  }
+}
+
+.ft-social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-left: 0;
+  a {
+    color: #fff;
+    font-size: 18px;
+    &:hover {
+      &.icon-twitter {
+        color: #00acee;
+      }
+      &.icon-facebook {
+        color: #4267b2;
+      }
+      &.icon-skype {
+        color: #00aff0;
+      }
+      &.icon-behance {
+        color: #053eff;
+      }
+      &.icon-linkedin2 {
+        color: #0072b1;
       }
     }
   }
